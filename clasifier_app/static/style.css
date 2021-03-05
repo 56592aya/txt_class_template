@@ -1,0 +1,62 @@
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0px;
+	background-color:#d0d4e6;
+}
+
+.container{
+	background:#88c9e7;
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+	color: #03A9F4;
+}
+
+header{
+	background:#94a8e7;
+	border-bottom:#94a8e7 3px solid;
+	height:120px;
+	width:100%;
+	padding-top:30px;
+}
+.main-header{
+	background: #d7e2f1;
+	padding: 10px 20px;
+	border: 1px solid #a2b0ec;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+#brandname{
+	float:left;
+	font-size:30px;
+	color:#9f94d3a2;
+	margin: 10px;
+}
+
+header h2{
+	text-align:center;
+	color:rgb(159, 193, 231);
+	background-color:#a5a8b6;
+}
+
+
+
+.btn-info {
+	background-color: #1f5f94;
+	color: #ffffff;
+	height:40px;
+	width:100px;
+}
+
+.btn-info:hover {
+	background: #a6cef0;
+}
+
+
+.resultss{
+	border-radius: 15px 50px;
+    background: #94a8e7;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}

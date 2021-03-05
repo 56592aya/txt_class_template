@@ -1,0 +1,20 @@
+{% extends "layout.html" %}    
+{% block content %}
+	<header>
+		<div class="container">
+			<div style="color:rgb(26, 26, 39);font-size:20;">
+				<b>Results</b>
+				
+			</div>
+		</div>
+	</header>
+	<p style="color:rgb(17, 17, 27);"><b>Predcited Value </b></p>
+	<div class="results">
+		{% if prediction == 1%}
+		<h2 style="color:red;">Positive</h2>
+		{% elif prediction == 0%}
+		<h2 style="color:blue;"> Negative</h2>
+		{% endif %}
+
+	</div>
+{% endblock content %}

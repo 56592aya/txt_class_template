@@ -11,6 +11,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
+#removed key in app
 # app.config['SECRET_KEY'] = '***************************'
 
 
@@ -19,6 +20,9 @@ app = Flask(__name__)
 def home():
 	return render_template('home.html')
 
+#make options for reading the data fram
+#make options for training within the app
+#make jsonify
 @app.route('/predict',methods=['POST'])
 def predict():
     model = joblib.load(open(os.path.join(config.MODEL_DIR, 'model_nb_1_count.pkl'), 'rb'))
